@@ -82,7 +82,6 @@
                         aria-labelledby="pills-home-tab"
                     >
                         <div v-for="item in data" :key="item.id">
-                            <h1 v-text="item.name"></h1>
                             <h1 v-text="item.links"></h1>
 
                             <div>

@@ -83,7 +83,7 @@
                     >
                         <div v-for="item in data" :key="item.id">
                             <h1 v-text="item.name"></h1>
-                            <a v-text="item.link"></a>
+                            <a v-text="item.links"></a>
 
                             <div>
                                 <h5>
